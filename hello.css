@@ -1,4 +1,5 @@
-@font-face {    font-family: 'Lobster';
+@font-face { 
+    font-family: 'Lobster';
     src: url('Lobster/Lobster.eot');
     src: url('Lobster/Lobster.eot?#iefix') format('embedded-opentype'),
          url('Lobster/Lobster.woff') format('woff'),
@@ -8,10 +9,31 @@
 
 body
 {
-    background-color: black;
+    background-image: url("217.jpg");
+    color: black;
     font-family: Trebuchet MS, Verdana, sans-serif;
 }
 
+.barrenoire
+{
+	display: block;
+	position: fixed;
+   	left: 0px;
+    	top: 0px;
+	background: url("Onsecalme.jpg") no-repeat right bottom;
+	background-size: auto 100%;
+	background-position: center;
+	width: 20%;
+	border-radius: 20px;
+	height: 97%;
+	margin: 1% 1% 1% 1%;
+}
+
+.contenu
+{
+	position: absolute;
+	margin-left: 23%;
+}
 
 h1
 {
@@ -25,11 +47,22 @@ h2
 	color: #6D071A;
 }
 
+.monexperience, .mescompetences, .maformation
+{
+	display: inline-block;
+	width: 28%;
+	margin: 0% 2% 0% 2%;
+	vertical-align: top;
+}
+
 .matrogne
 {
-	float: right;
+	position: absolute;
 	border: 3px solid black;
 	box-shadow: 6px 6px 6px black;
+	right: 0px;
+	margin: 15px 15px 0px 0px;
+	z-index: -1;
 }
 
 .sous-titre
